@@ -17,7 +17,7 @@
 	border: 1px solid #000;
 }
 .tower {
-	min-height: 90vh;
+	min-height: 50vh;
 	text-align: center;
 	vertical-align: bottom;
 	display: table-cell;
