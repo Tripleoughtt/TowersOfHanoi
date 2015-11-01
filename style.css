@@ -6,6 +6,9 @@
 	border: 4px solid green;
 }
 
+h1 {
+	font-size: 2.5em;
+}
 .gamePiece{
 	margin-left: auto;
 	margin-right: auto;
@@ -13,14 +16,30 @@
 	position: relative;
 	z-index: -100;
 }
+
+.row {
+	text-align: center;
+}
+
+div.container{
+	text-align: center;
+}
+
+.tower-holder {
+
+	margin-top: 50px;
+}
+
 .gamePiece, .tower {
 	border: 1px solid #000;
 }
 .tower {
-	min-height: 50vh;
+	height: 600px;
 	text-align: center;
 	vertical-align: bottom;
 	display: table-cell;
+	float: none;
+
 }
 
 #p1 {
